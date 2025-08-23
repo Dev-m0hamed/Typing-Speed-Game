@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="game">
+      <div class="name">test your typing speed</div>
+      <div class="container">
+        <div class="message">
+          You Are Playing On
+          <span class="lvl"></span> Level & You Have
+          <span class="seconds"></span> Seconds To Type The Word
+        </div>
+        <div class="start-box">
+          <select name="" class="box">
+            <option value="" disabled selected>please select a level</option>
+            <option value="Easy">Easy</option>
+            <option value="Normal">Normal</option>
+            <option value="Hard">Hard</option>
+          </select>
+          <button class="start">Start Playing</button>
+        </div>
+        <div class="the-word"></div>
+        <input type="text" class="input" />
+        <div class="upcoming-words">words will show here</div>
+        <div class="control">
+          <div class="score">
+            Score : <span class="got">0</span> / <span class="total"></span>
+          </div>
+          <div class="time">Time Left : <span class="left"></span> Seconds</div>
+        </div>
+        <div class="finish"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
